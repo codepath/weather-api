@@ -26,5 +26,5 @@ A minimalist Express.js app that serves hardcoded weather data via a single REST
 4. Fetch Weather Data
 
     ```bash
-    curl http://localhost:9009/api/weather/data
+    curl http://localhost:9009/api
     ```

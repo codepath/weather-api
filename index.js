@@ -2,7 +2,7 @@ const express = require('express')
 const data = require('./data.js')
 const app = express()
 const PORT = process.env.PORT || 9009
-app.get('/api/weather/data', (req, res) => {
+app.get('/api', (req, res) => {
     res.json(data)
 })
 app.use('*', (req, res) => {
