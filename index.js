@@ -6,7 +6,7 @@ app.get('/api', (req, res) => {
     res.json(data)
 })
 app.use('*', (req, res) => {
-    res.send("Welcome to the Weather Data API")
+    res.send("[GET] /api to fetch weather data")
 })
 app.listen(PORT, () => {
     console.log(`Weather API running on ${PORT}`)
