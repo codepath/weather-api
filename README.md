@@ -28,3 +28,7 @@ A minimalist Express.js app that serves hardcoded weather data via a single REST
     ```bash
     curl http://localhost:9009/api
     ```
+
+## Deployment
+
+[https://weather-api-3ige.onrender.com/](https://weather-api-3ige.onrender.com/)
